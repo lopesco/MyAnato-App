@@ -47,7 +47,6 @@ export default class Page3 extends Component {
           </ul>
         </div>
         <div className="body">
-      <center>
           <img
             class="img-fluid"
             src="https://imgur.com/dCswWr3.png"
@@ -55,7 +54,6 @@ export default class Page3 extends Component {
             height="463px"
           />
         </div>
-      </center>
         <button type="submit" class="btn btn-primary">
           Salvar
         </button>

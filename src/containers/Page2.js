@@ -47,7 +47,6 @@ export default class Page2 extends Component {
           </ul>
         </div>
         <div className="body">
-          <p>Aponte as estruturas a seguir:</p>
           <img
             class="img-fluid"
             src="https://imgur.com/ehKAC6g.png"

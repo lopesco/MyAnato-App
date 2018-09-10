@@ -11,6 +11,17 @@
     padding: 5px 0;
   }
 
+  .Page2 .panel-default {
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+  }
+
+  .Page2 .panel-body {
+    font-size: 14px;
+    text-align: center;
+  }
+
   .Page2 h1 {
     font-family: "Open Sans" sans-serif;
     font-weight: 600;

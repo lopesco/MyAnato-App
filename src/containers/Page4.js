@@ -53,6 +53,39 @@ export default class Page3 extends Component {
             height="600px"
           />
         </div>
+        <center>
+          <div class="panel panel-default">
+            <div class="panel-heading">Escreva o nome de cada peça:</div>
+            <div class="panel-body">
+              <center>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="">
+                      A
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="">
+                      B
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="">
+                      C
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" />
+                </div>
+              </center>
+            </div>
+          </div>
+        </center>
         <button type="submit" class="btn btn-primary">
           Salvar
         </button>

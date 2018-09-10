@@ -54,6 +54,37 @@ export default class Page3 extends Component {
             height="463px"
           />
         </div>
+        <center>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              A, B, C correspondem respectivamente a:
+            </div>
+            <div class="panel-body">
+              <div class="custom-control custom-radio">
+                <input
+                  type="radio"
+                  id="customRadio1"
+                  name="customRadio"
+                  class="custom-control-input"
+                />
+                <label class="custom-control-label" for="customRadio1">
+                  Opção 1
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input
+                  type="radio"
+                  id="customRadio2"
+                  name="customRadio"
+                  class="custom-control-input"
+                />
+                <label class="custom-control-label" for="customRadio2">
+                  Opção 2
+                </label>
+              </div>
+            </div>
+          </div>
+        </center>
         <button type="submit" class="btn btn-primary">
           Salvar
         </button>

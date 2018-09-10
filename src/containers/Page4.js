@@ -8,7 +8,7 @@ export default class Page3 extends Component {
       <div className="Page3">
         <div className="lander">
           <h1>
-            <Link to="/mainpage">Página Inicial</Link>/ <small> Questões</small>
+            <Link to="/mainpage">Página Inicial</Link> / <small> Questões</small>
           </h1>
         </div>
         <div class="container">

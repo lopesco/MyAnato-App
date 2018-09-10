@@ -8,8 +8,7 @@ export default class Page3 extends Component {
       <div className="Page3">
         <div className="lander">
           <h1>
-            <Link to="/mainpage">Página Inicial </Link>/{" "}
-            <small> Questões</small>
+            <Link to="/mainpage">Página Inicial</Link>/ <small> Questões</small>
           </h1>
         </div>
         <div class="container">
@@ -34,7 +33,7 @@ export default class Page3 extends Component {
                 3
               </a>
             </li>
-            <li class="page-item">
+            <li class="active">
               <a class="Page4" href="/page4">
                 4
               </a>
@@ -47,7 +46,6 @@ export default class Page3 extends Component {
           </ul>
         </div>
         <div className="body">
-          <p>Aponte as estruturas a seguir:</p>
           <img
             class="img-fluid"
             src="https://imgur.com/DYyR9Ed.png"

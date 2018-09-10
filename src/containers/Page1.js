@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, FormGroup } from "react-bootstrap";
+import { Button, FormGroup, FormControl } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Page1.css";
 
@@ -20,7 +20,7 @@ export default class Page1 extends Component {
                 Anterior
               </a>
             </li>
-            <li class="page-item">
+            <li class="active">
               <a class="Page1" href="/page1">
                 1
               </a>
@@ -47,14 +47,84 @@ export default class Page1 extends Component {
             </li>
           </ul>
         </div>
-        <div className="body">
-          <p>Aponte as estruturas a seguir:</p>
-          <img
-            class="img-fluid"
-            src="https://imgur.com/dqPc34L.png"
-            width="368px"
-            height="599px"
-          />
+        <div class="row">
+          <div className="body">
+            <img
+              class="img-fluid"
+              src="https://imgur.com/dqPc34L.png"
+              width="368px"
+              height="599px"
+            />
+          </div>
+          <center>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                Selecione as opções que estão na imagem ao lado.
+              </div>
+              <div class="panel-body">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 1
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 2
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 3
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 4
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 5
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 6
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 7
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 8
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 9
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="" />
+                    Opção 10
+                  </label>
+                </div>
+              </div>
+            </div>
+          </center>
         </div>
         <button type="submit" class="btn btn-primary">
           Salvar

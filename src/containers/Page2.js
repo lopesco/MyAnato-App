@@ -24,7 +24,7 @@ export default class Page2 extends Component {
                 1
               </a>
             </li>
-            <li class="page-item">
+            <li class="active">
               <a class="Page2" href="/page2">
                 2
               </a>

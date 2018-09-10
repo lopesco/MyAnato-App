@@ -29,7 +29,7 @@ export default class Page3 extends Component {
                 2
               </a>
             </li>
-            <li class="page-item">
+            <li class="active">
               <a class="Page3" href="/page3">
                 3
               </a>
@@ -47,7 +47,6 @@ export default class Page3 extends Component {
           </ul>
         </div>
         <div className="body">
-          <p>Aponte as estruturas a seguir:</p>
           <img
             class="img-fluid"
             src="https://imgur.com/dCswWr3.png"

@@ -40,21 +40,35 @@ export default class Page3 extends Component {
               </a>
             </li>
             <li class="page-item">
+              <a class="Page5" href="/page5">
+                5
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page6" href="/page6">
+                6
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page7" href="/page7">
+                7
+              </a>
+            </li>
+            <li class="page-item">
               <a class="Page4" href="/page4">
                 Próxima
               </a>
             </li>
           </ul>
-        </div>
-        <div className="body">
-          <img
-            class="img-fluid"
-            src="https://imgur.com/dCswWr3.png"
-            width="500px"
-            height="463px"
-          />
-        </div>
-        <center>
+          <div className="body">
+            <img
+              class="img"
+              src="/img3.png"
+              width="500px"
+              height="463px"
+              alt="img3"
+            />
+          </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               A, B, C correspondem respectivamente a:
@@ -84,10 +98,10 @@ export default class Page3 extends Component {
               </div>
             </div>
           </div>
-        </center>
-        <button type="submit" class="btn btn-primary">
-          Salvar
-        </button>
+          <button type="submit" class="btn btn-primary">
+            Salvar
+          </button>
+        </div>
       </div>
     );
   }

@@ -12,7 +12,7 @@ export default class Page2 extends Component {
             <small> Questões</small>
           </h1>
         </div>
-        <div class="container">
+        <div class="container justify-content-center">
           <ul class="pagination justify-content-center">
             <li class="page-item">
               <a class="Page1" href="/page1">
@@ -40,21 +40,29 @@ export default class Page2 extends Component {
               </a>
             </li>
             <li class="page-item">
+              <a class="Page5" href="/page5">
+                5
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page6" href="/page6">
+                6
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page7" href="/page7">
+                7
+              </a>
+            </li>
+            <li class="page-item">
               <a class="Page3" href="/page3">
                 Próxima
               </a>
             </li>
           </ul>
-        </div>
-        <div className="body">
-          <img
-            class="img-fluid"
-            src="https://imgur.com/ehKAC6g.png"
-            width="408px"
-            height="600px"
-          />
-        </div>
-        <center>
+          <div className="body">
+            <img class="img" src="/img2.png" width="211px" height="500px" />
+          </div>
           <div class="panel panel-default">
             <div class="panel-heading">Selecione corretamente:</div>
             <div class="panel-body">
@@ -96,10 +104,10 @@ export default class Page2 extends Component {
               </p>
             </div>
           </div>
-        </center>
-        <button type="submit" class="btn btn-primary">
-          Salvar
-        </button>
+          <button type="submit" class="btn btn-primary">
+            Salvar
+          </button>
+        </div>
       </div>
     );
   }

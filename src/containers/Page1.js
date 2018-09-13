@@ -41,94 +41,100 @@ export default class Page1 extends Component {
               </a>
             </li>
             <li class="page-item">
+              <a class="Page5" href="/page5">
+                5
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page6" href="/page6">
+                6
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page7" href="/page7">
+                7
+              </a>
+            </li>
+            <li class="page-item">
               <a class="Page2" href="/page2">
                 Próxima
               </a>
             </li>
           </ul>
-        </div>
-        <div class="row">
           <div className="body">
-            <img
-              class="img-fluid"
-              src="https://imgur.com/dqPc34L.png"
-              width="368px"
-              height="599px"
-            />
+            <img class="img" src="/img1.png" width="193px" height="500px" />
           </div>
-          <center>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                Selecione as opções que estão na imagem ao lado.
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Selecione as opções que estão na imagem.
+            </div>
+            <div class="panel-body">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 1
+                </label>
               </div>
-              <div class="panel-body">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 1
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 2
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 3
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 4
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 5
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 6
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 7
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 8
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 9
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="" />
-                    Opção 10
-                  </label>
-                </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 2
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 3
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 4
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 5
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 6
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 7
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 8
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 9
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" />
+                  Opção 10
+                </label>
               </div>
             </div>
-          </center>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Salvar
+          </button>
         </div>
-        <button type="submit" class="btn btn-primary">
-          Salvar
-        </button>
       </div>
     );
   }

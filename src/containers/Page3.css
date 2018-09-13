@@ -11,6 +11,12 @@
     padding: 5px 0;
   }
 
+  .Page3 .container {
+    margin: 0 auto;
+    max-width: 500px;
+    position: center;
+  }
+
   .Page3 .panel-default {
     max-width: 500px;
     max-height: 500px;

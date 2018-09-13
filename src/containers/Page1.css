@@ -11,10 +11,16 @@
     padding: 5px 0;
   }
 
-  .Page1 .panel-default {
+  .Page1 .container {
+    margin: 0 auto;
+    max-width: 500px;
+    position: center;
+  }
+
+  .Page1 .panel {
     max-width: 500px;
     max-height: 500px;
-    text-align: center;
+    position: center;
   }
 
   .Page1 .checkbox {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Button, FormGroup, FormControl } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Page1.css";
 
@@ -16,7 +15,7 @@ export default class Page1 extends Component {
         <div class="container">
           <ul class="pagination justify-content-center">
             <li class="page-item disabled">
-              <a class="page-link" href="#">
+              <a class="page-link" href="/">
                 Anterior
               </a>
             </li>
@@ -62,7 +61,13 @@ export default class Page1 extends Component {
             </li>
           </ul>
           <div className="body">
-            <img class="img" src="/img1.png" width="193px" height="500px" />
+            <img
+              class="img"
+              src="/img1.png"
+              width="193px"
+              height="500px"
+              alt="img1"
+            />
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">

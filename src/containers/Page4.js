@@ -8,7 +8,8 @@ export default class Page3 extends Component {
       <div className="Page3">
         <div className="lander">
           <h1>
-            <Link to="/mainpage">Página Inicial</Link> / <small> Questões</small>
+            <Link to="/mainpage">Página Inicial</Link> /{" "}
+            <small> Questões</small>
           </h1>
         </div>
         <div class="container">
@@ -38,22 +39,36 @@ export default class Page3 extends Component {
                 4
               </a>
             </li>
-            <li class="page-item disabled">
-              <a class="page-link" href="#">
+            <li class="page-item">
+              <a class="Page5" href="/page5">
+                5
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page6" href="/page6">
+                6
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page7" href="/page7">
+                7
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="Page5" href="/page5">
                 Próxima
               </a>
             </li>
           </ul>
-        </div>
-        <div className="body">
-          <img
-            class="img-fluid"
-            src="https://imgur.com/DYyR9Ed.png"
-            width="582px"
-            height="600px"
-          />
-        </div>
-        <center>
+          <div className="body">
+            <img
+              class="img"
+              src="/img4.png"
+              width="348px"
+              height="500px"
+              alt="img4"
+            />
+          </div>
           <div class="panel panel-default">
             <div class="panel-heading">Escreva o nome de cada peça:</div>
             <div class="panel-body">
@@ -85,10 +100,10 @@ export default class Page3 extends Component {
               </center>
             </div>
           </div>
-        </center>
-        <button type="submit" class="btn btn-primary">
-          Salvar
-        </button>
+          <button type="submit" class="btn btn-primary">
+            Salvar
+          </button>
+        </div>
       </div>
     );
   }

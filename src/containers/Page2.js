@@ -61,7 +61,13 @@ export default class Page2 extends Component {
             </li>
           </ul>
           <div className="body">
-            <img class="img" src="/img2.png" width="211px" height="500px" />
+            <img
+              class="img"
+              src="/img2.png"
+              width="211px"
+              height="500px"
+              alt="img2"
+            />
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">Selecione corretamente:</div>

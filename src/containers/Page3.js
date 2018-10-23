@@ -71,31 +71,45 @@ export default class Page3 extends Component {
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
-              A, B, C correspondem respectivamente a:
+              Selecione corretamente.
             </div>
             <div class="panel-body">
-              <div class="custom-control custom-radio">
-                <input
-                  type="radio"
-                  id="customRadio1"
-                  name="customRadio"
-                  class="custom-control-input"
-                />
-                <label class="custom-control-label" for="customRadio1">
-                  Opção 1
-                </label>
-              </div>
-              <div class="custom-control custom-radio">
-                <input
-                  type="radio"
-                  id="customRadio2"
-                  name="customRadio"
-                  class="custom-control-input"
-                />
-                <label class="custom-control-label" for="customRadio2">
-                  Opção 2
-                </label>
-              </div>
+                <p>
+                    Estrutura A:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura B:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura C:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura D:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
             </div>
           </div>
           <button type="submit" class="btn btn-primary">

@@ -71,69 +71,45 @@ export default class Page1 extends Component {
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
-              Selecione as opções que estão na imagem.
+              Selecione corretamente.
             </div>
             <div class="panel-body">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 1
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 2
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 3
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 4
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 5
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 6
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 7
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 8
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 9
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="" />
-                  Opção 10
-                </label>
-              </div>
+                <p>
+                    Estrutura A:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura B:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura C:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura D:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
             </div>
           </div>
           <button type="submit" class="btn btn-primary">

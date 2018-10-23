@@ -23,9 +23,9 @@
     position: center;
   }
 
-  .Page1 .checkbox {
+  .Page1 .panel-body {
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
   }
 
   .Page1 h1 {

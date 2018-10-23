@@ -63,7 +63,7 @@ export default class Page3 extends Component {
           <div className="body">
             <img
               class="img"
-              src="/img4.png"
+              src="/Gray-4.png"
               width="348px"
               height="500px"
               alt="img4"

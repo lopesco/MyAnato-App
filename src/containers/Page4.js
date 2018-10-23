@@ -70,36 +70,46 @@ export default class Page3 extends Component {
             />
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading">Escreva o nome de cada peça:</div>
+            <div class="panel-heading">Selecione corretamente:</div>
             <div class="panel-body">
-              <center>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="">
-                      A
-                    </span>
-                  </div>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="">
-                      B
-                    </span>
-                  </div>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="">
-                      C
-                    </span>
-                  </div>
-                  <input type="text" class="form-control" />
-                </div>
-              </center>
+                <p>
+                    Estrutura A:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura B:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura C:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
+                <p>
+                    Estrutura D:{" "}
+                    <select className="custom-select">
+                        <option selected>Opções</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                    </select>
+                </p>
             </div>
-          </div>
+            </div>
           <button type="submit" class="btn btn-primary">
             Salvar
           </button>
